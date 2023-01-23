@@ -26,8 +26,10 @@ h1, h2 {
 }
 
 #menu li {
-        margin-right: 30px;
-        text-decoration: none;
-        float: right;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;}
 
-    }
+#menu a {
+        text-decoration: none;
+        }
