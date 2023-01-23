@@ -74,14 +74,14 @@ h1, h2 {
 }
 
 .mission h1 {
-        margin-left: 250px; 
+        margin-left: 150px; 
         font-size: 50px;
         letter-spacing: 2px;}
 
 
 #padding-left { 
-        margin-left: 310px;
-        margin-top: -20px;
+        margin-left: 175px;
+        margin-top: -25px;
 
 
 }
@@ -90,7 +90,16 @@ h1, h2 {
         
 
 .mission p {
-        margin-left: 500px;
+        margin-left: 300px;
         font-size: 26px;
-        margin-top: 50px;
+        line-height: 150%;
 }
+
+
+#mission-image {
+            
+           
+            background: url("../images/yoga\ 3.jpg") no repeat;
+        }
+
+
