@@ -71,6 +71,7 @@ h1, h2 {
         height: 700px;
         width: 100%; 
         margin-top: 125px;
+        float: left;
 }
 
 .mission h1 {
@@ -98,8 +99,22 @@ h1, h2 {
 
 #mission-image {
             
-           
+           float: right;
             background: url("../images/yoga\ 3.jpg") no repeat;
         }
 
 
+
+
+/* footer */
+
+.footer-left {
+            float: left;
+            margin-left: 20px;
+
+    
+}
+
+.footer-left ul li{
+    list-style: none;
+}
