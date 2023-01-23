@@ -1,19 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Marcellus&family=Vollkorn&display=swap');
 
 body {
     font-family: lato, sans-serif;
-    fort-weight: 300;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 0;
+    color:#36454F;
 }
 
 h1, h2 { 
-    font-family: vollkorn, sans-serif;
-    color:black;
+    font-family: marcellus, sans-serif;
+    font-weight: 300px;
+    color:#36454F;
 }
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin-left: 45px;
+    font-size: 220%;
+    margin-left: 45px;line-height: 25px;
+    
 }
 
 /* nav links */
@@ -22,7 +27,11 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
-    margin-right: 45px;
+    margin-right: 45px;line-height: 50px;
+}
+
+#menu, #logo {
+    
 }
 
 #menu li {
@@ -32,4 +41,24 @@ h1, h2 {
 
 #menu a {
         text-decoration: none;
+        color: inherit;
         }
+
+
+
+#menu a:hover {
+            border-bottom: 1px solid black;
+}
+
+.active {
+        border-bottom: 1px solid black;
+}
+
+/* hero-image */
+
+#main-image {
+    background: url("../images/yoga\ 1.jpg") no-repeat center center;
+    height: 1000px;
+    width:100%;
+    background-size: cover;
+}
