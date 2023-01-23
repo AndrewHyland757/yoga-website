@@ -1,1 +1,33 @@
-body {color:red}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Vollkorn&display=swap');
+
+body {
+    font-family: lato, sans-serif;
+    fort-weight: 300;
+}
+
+h1, h2 { 
+    font-family: vollkorn, sans-serif;
+    color:black;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 45px;
+}
+
+/* nav links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    margin-right: 45px;
+}
+
+#menu li {
+        margin-right: 30px;
+        text-decoration: none;
+        float: right;
+
+    }
