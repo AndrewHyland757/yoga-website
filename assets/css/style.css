@@ -103,7 +103,7 @@ h1, h2 {
 #ethos-left h1 {
             
             width:900px;
-            font-size: 50px;
+            font-size: 45px;
             letter-spacing: 2px;
             margin-left: 50px;
             margin-top: 100px;
@@ -121,17 +121,14 @@ h1, h2 {
             margin-left: 300px;
             font-weight: 700;
             font-size: 20px;
-            line-height: 200%; 
+            line-height: 150%; 
             letter-spacing: 1px
 }
 
 
 
 
-#ethos-image {
-                background: url("../images/yoga-3.jpg");
-              
-}
+
 
 
 
@@ -149,4 +146,68 @@ h1, h2 {
 .footer-left ul li{
     list-style: none;
 }
+
+/* offers */
+
+#image-1 {
+        width: 200px;
+        height: 200px;
+        background: url("../images/yoga-class.jpg");
+        background-size: 100% 100%;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 50%;
+
+}
+
+#image-2 {
+    width: 200px;
+    height: 200px;
+    background: url("../images/veg.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+#image-3 {
+    width: 200px;
+    height: 200px;
+    background: url("../images/surf.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#image-4 {
+    width: 200px;
+    height: 200px;
+    background: url("../images/cabin.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.offers > div {
+    width: 25%;
+    height: 500px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    
+    box-sizing: border-box;
+    background-color: #36454F;
+    color: beige;
+}
+
+.offers p {
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+
+
+}
+
 
