@@ -58,50 +58,81 @@ h1, h2 {
 
 /* hero-image */
 
-#main-image {
+#hero-image {
     background: url("../images/yoga\ 1.jpg") no-repeat center center;
     height: 1000px;
     width:100%;
     background-size: cover;
+    overflow: visible;
 }
-
-/* mission-ststement */
-
-.mission {
-        height: 700px;
-        width: 100%; 
-        margin-top: 125px;
-        float: left;
-}
-
-.mission h1 {
-        margin-left: 150px; 
-        font-size: 50px;
-        letter-spacing: 2px;}
+    
 
 
-#padding-left { 
-        margin-left: 200px;
-        margin-top: -25px;
 
 
-}
 
 
-        
-
-.mission p {
-        margin-left: 300px;
-        font-size: 26px;
-        line-height: 150%;
-}
 
 
-#mission-image {
+
+
+/* ethos */
+
+
+
+
+
+
+#ethos {
+         width:100%;
+         height: 600px;
+         margin-top: 125px;
+    }
+
+#sun-image {
+    width: 35%;
+    height: 80%;
+    margin-right:50px ;
+    float: right;
+    background: url('../images/yoga-3.jpg') no-repeat center center;
+    background-size: 100% 100%;
+   }
+
+
+
+#ethos-left h1 {
             
-           float: right;
-            background: url("../images/yoga\ 3.jpg") no repeat;
-        }
+            width:900px;
+            font-size: 50px;
+            letter-spacing: 2px;
+            margin-left: 50px;
+            margin-top: 100px;
+            float: left;
+}
+
+#ethos-left2 h1 {
+                padding-left: 25px;
+
+}
+
+
+#ethos-left p{
+            width: 500px;
+            margin-left: 300px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 200%; 
+            letter-spacing: 1px
+}
+
+
+
+
+#ethos-image {
+                background: url("../images/yoga-3.jpg");
+              
+}
+
 
 
 
