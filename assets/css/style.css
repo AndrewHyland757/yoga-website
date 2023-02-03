@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Marcellus&family=Vollkorn&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
     margin: 0;
     margin-top: 0;
     color:#36454F;
+    background-color:rgb(211, 211, 211, .1);
 }
 
-h1, h2 { 
+h1, h2, h3 { 
     font-family: marcellus, sans-serif;
     font-weight: 300px;
     color:#36454F;
@@ -20,6 +27,7 @@ h1, h2 {
     margin-left: 45px;
     letter-spacing: 4px;
     
+    
 }
 
 /* nav links */
@@ -29,17 +37,25 @@ h1, h2 {
     letter-spacing: 3px;
     list-style-type: none;
     margin-right: 45px;
+    
 }
 
+
 #menu, #logo {
-        line-height: 45px;
+    line-height: 90px;
+    vertical-align: middle;
+       
+        
     
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;}
+    margin-right: 30px;
+    
+
+     }
 
 #menu a {
         text-decoration: none;
@@ -59,11 +75,16 @@ h1, h2 {
 /* hero-image */
 
 #hero-image {
-    background: url("../images/yoga\ 1.jpg") no-repeat center center;
+    background: url("../images/main-image.jpg") no-repeat center center;
     height: 1000px;
     width:100%;
-    background-size: cover;
+    background-size:cover;
     overflow: visible;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    margin-top: 0;
+    
 }
     
 
@@ -107,6 +128,7 @@ h1, h2 {
             letter-spacing: 2px;
             margin-left: 50px;
             margin-top: 100px;
+            margin-bottom: 50px;
             float: left;
 }
 
@@ -117,35 +139,19 @@ h1, h2 {
 
 
 #ethos-left p{
+    
+            margin-top: 20px;
             width: 500px;
             margin-left: 300px;
             font-weight: 700;
             font-size: 20px;
             line-height: 150%; 
             letter-spacing: 1px
+            
+            
 }
 
 
-
-
-
-
-
-
-
-
-/* footer */
-
-.footer-left {
-            float: left;
-            margin-left: 20px;
-
-    
-}
-
-.footer-left ul li{
-    list-style: none;
-}
 
 /* offers */
 
@@ -155,7 +161,8 @@ h1, h2 {
         background: url("../images/yoga-class.jpg");
         background-size: 100% 100%;
         margin: 0 auto;
-        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 25px;
         border-radius: 50%;
 
 }
@@ -167,6 +174,7 @@ h1, h2 {
     background-size: 100% 100%;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 25px;
     border-radius: 50%;
 }
 
@@ -176,7 +184,8 @@ h1, h2 {
     background: url("../images/surf.jpg");
     background-size: 100% 100%;
     margin: 0 auto;
-    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
     border-radius: 50%;
 }
 
@@ -186,7 +195,8 @@ h1, h2 {
     background: url("../images/cabin.jpg");
     background-size: 100% 100%;
     margin: 0 auto;
-    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
     border-radius: 50%;
 }
 
@@ -209,5 +219,32 @@ text-align: justify;
 
 
 }
+.offers h3 {
+            color: beige;
+            margin-bottom: 10px;
+}
 
 
+/* footer */
+
+footer {
+            height: 150px;
+}
+
+.social {
+            text-align: center;
+}
+
+
+
+
+.social > li {
+            display: inline;
+            color: #36454F;
+}
+
+.social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;}
