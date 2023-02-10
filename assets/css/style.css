@@ -76,10 +76,10 @@ h1, h2, h3 {
 
 #hero-image {
     background: url("../images/main-image.jpg") no-repeat center center;
-    height: 925px;
+    height: 1010px;
     width:100%;
     background-size:cover;
-    overflow: hidden;
+    overflow: visible;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -97,14 +97,7 @@ h1, h2, h3 {
          margin-top: 125px;
     }
 
-#sun-image {
-    width: 35%;
-    height: 80%;
-    margin-right:50px ;
-    float: right;
-    background: url('../images/yoga-3.jpg') no-repeat center center;
-    background-size: 100% 100%;
-   }
+
 
 
 
@@ -137,6 +130,18 @@ h1, h2, h3 {
             
             
 }
+
+
+#sun-image {
+    width: 35%;
+    height: 80%;
+    margin-right:50px ;
+    float: right;
+    background: url('../images/yoga-3.jpg') no-repeat center center;
+    background-size: 100% 100%;
+   }
+
+
 
 
 
@@ -211,6 +216,8 @@ text-align: justify;
 }
 
 
+
+
 /* footer */
 
 footer {
@@ -230,12 +237,12 @@ footer {
 }
 
 .social i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-overflow: hidden;
-}
+         font-size: 160%;
+         margin: 1%;
+         padding: 5%;
+         color: #3a3a3a;
+         overflow: hidden;
+}   
 
 
 /* gallery */
@@ -257,6 +264,74 @@ overflow: hidden;
 }
 
 
+/* contact */
+
+.contact-section {
+             background: url("../images/contact-image.jpg");
+             background-size: cover;
+             background-position: center;
+             overflow: visible;
+            height: 1200px;
+    
+    
+}
+signup-form > h2 { 
+    color:#fafafa;
+    margin-bottom:20px;
+}
+
+.text-input {
+background:transparent;
+color:#fafafa;
+width:100%;
+height:25px;
+margin: 5px 0 20px 0;
+border:1px solid #fafafa;
+border-radius:2px;
+}
+
+.text-input:hover{ 
+    border-color:#f16c6b;
+
+}
+
+.join-button{ 
+margin-top:20px;
+border-radius:2px;
+padding: 15px 32px 15px 32px;
+text-align: center;
+font-size:100%;
+background-color:#f16c6b;
+color:#fafafa;
+display:block;
+}
+.join-button:hover{
+        background-color:#fafafa;
+        color:#f16c6b;
+}
+
+
+
+
+
+
+
+
+.contact-form {
+
+            margin:150px 10% 0 0;
+            color:#fff;
+            background-color:rgba(60, 60, 60, 0.6);
+            max-width:400px;
+            position:absolute;
+            left: 10%;
+            padding:30px;
+            }
+
+
+
+
+
 /* media queries */
 
 
@@ -271,26 +346,92 @@ overflow: hidden;
 
 
 
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 110%;
+        letter-spacing: 3px;
+        list-style-type: none;
+        margin-left: 30px;
+       margin-bottom: 20px;
+    }
+
+    #logo {
+        float: left;
+        font-size: 210%;
+        margin-left: 30px;
+        letter-spacing: 4px;
+        margin-top: 25px;
+        
+    }
+
+
+    #menu, #logo {
+        line-height: 40px;
+        vertical-align: middle;
+    }
 
     #hero-image {
+
         
         size: 100%;
         clear: both;
-        width:100%;
+        width:90%;
         height: 700px;
         background-size: cover;
-        left: 50%;
         
-    
-        
-        overflow: hidden;
+        overflow: visible;
         margin: 0 auto;
         padding: 0;
         outline: 0;
         margin-top: 0;
-        move
+        
+        
         
     }
+
+
+    #ethos-left h1 {
+            
+        width:40%;
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-left: 10px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        float: left;
+}
+
+        #ethos-left2 h1 {
+            padding-left: 25px;
+
+}
+
+
+        #ethos-left p{
+
+        margin-top: 20px;
+        width: 500px;
+        margin-left: 300px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%; 
+        letter-spacing: 1px
+        
+        
+}
+
+
+        #sun-image {
+        width: 50%;
+        height: 60%;
+        margin: 0 auto;
+        
+        background: url('../images/yoga-3.jpg') no-repeat center center;
+        background-size: 100% 100%;
+       }
+
+       
 
 
 
@@ -318,3 +459,13 @@ overflow: hidden;
 
 
 }
+
+
+
+
+
+
+
+
+
+
