@@ -267,19 +267,45 @@ footer {
 /* contact */
 
 .contact-section {
+           
              background: url("../images/contact-image.jpg");
-             height: 1150px;
+             height: 1100px;
              background-size:cover;
              width: 100%;
              overflow:visible;
-             margin: 0;
+             margin: 0;  
              padding: 0;
              outline: 0;
              margin-top: 0;
 }
     
-.contact section h2{
-                    float: left;
+.contact-section div {
+                    overflow: hidden;
+                    clear:left;
+                    margin-left: 45px;
+                    padding-top: 250px;
+
+}
+
+
+.contact-section h2 {
+    
+    letter-spacing: 1.5px;
+}
+
+
+
+.contact-section p {
+    
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+#input-style {
+    margin-top: 5px;
+            width: 300px;
+            height: 20px;
+            
 }
 
 
