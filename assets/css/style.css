@@ -11,14 +11,16 @@ body {
     font-weight: 300;
     margin: 0;
     margin-top: 0;
-    color:#36454F;
-    background-color:rgb(211, 211, 211, .1);
+    color: #36454F;
+    background-color: rgb(211, 211, 211, .1);
 }
 
-h1, h2, h3 { 
+h1,
+h2,
+h3 {
     font-family: marcellus, sans-serif;
     font-weight: 300px;
-    color:#36454F;
+    color: #36454F;
 }
 
 #logo {
@@ -26,8 +28,8 @@ h1, h2, h3 {
     font-size: 220%;
     margin-left: 45px;
     letter-spacing: 4px;
-    
-    
+
+
 }
 
 /* nav links */
@@ -37,39 +39,40 @@ h1, h2, h3 {
     letter-spacing: 3px;
     list-style-type: none;
     margin-right: 45px;
-    
+
 }
 
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 90px;
     vertical-align: middle;
-       
-        
-    
+
+
+
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
 
-     }
+
+}
 
 #menu a {
-        text-decoration: none;
-        color: inherit;
-        }
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
 #menu a:hover {
-            border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .active {
-        border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /* hero-image */
@@ -77,67 +80,65 @@ h1, h2, h3 {
 #hero-image {
     background: url("../images/main-image.jpg") no-repeat center center;
     height: 1010px;
-    width:100%;
-    background-size:cover;
+    width: 100%;
+    background-size: cover;
     overflow: visible;
     margin: 0;
     padding: 0;
     outline: 0;
     margin-top: 0;
-    
+
 }
-    
+
 /* ethos */
 
 
 
 #ethos {
-         width:100%;
-         height: 600px;
-         margin-top: 125px;
-         padding-left: 25px;
-    }
+    width: 100%;
+    height: 600px;
+    margin-top: 125px;
+    padding-left: 25px;
+}
 
 
 
 
 
 #ethos h1 {
-            
-            width:900px;
-            font-size: 45px;
-            letter-spacing: 2px;
-            margin-left: 50px;
-            margin-top: 100px;
-            margin-bottom: 50px;
-            float: left;
+
+    width: 900px;
+    font-size: 220%;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: left;
 }
 
 
 
-#ethos p{
-    
-            margin-top: 20px;
-            width: 500px;
-            margin-left: 300px;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 150%; 
-            letter-spacing: 1px
-            
-            
+#ethos p {
+
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 125%;
+    line-height: 150%;
+    letter-spacing: 1px
 }
 
 
-#ethos img {
+#sunset-img {
     width: 35%;
     height: 80%;
-    margin-right:60px ;
+    margin-right: 60px;
     float: right;
 
-    
-    
-   }
+
+
+}
 
 
 
@@ -146,14 +147,14 @@ h1, h2, h3 {
 /* offers */
 
 #image-1 {
-        width: 200px;
-        height: 200px;
-        background: url("../images/yoga-class.jpg");
-        background-size: 100% 100%;
-        margin: 0 auto;
-        margin-top: 40px;
-        margin-bottom: 25px;
-        border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: url("../images/yoga-class.jpg");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border-radius: 50%;
 
 }
 
@@ -190,27 +191,27 @@ h1, h2, h3 {
     border-radius: 50%;
 }
 
-#offers > div {
+#offers>div {
     width: 25%;
     height: 500px;
     float: left;
     padding: 40px 30px 0 30px;
     text-align: center;
-    
+
     box-sizing: border-box;
     background-color: #36454F;
     color: beige;
 }
 
 #offers p {
-padding-left: 25px;
-padding-right: 25px;
-text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
 }
 
 #offers h3 {
-            color: beige;
-            margin-bottom: 10px;
+    color: beige;
+    margin-bottom: 10px;
 }
 
 
@@ -219,96 +220,97 @@ text-align: justify;
 /* footer */
 
 footer {
-            height: 150px;
+    height: 150px;
 }
 
 .social {
-            text-align: center;
+    text-align: center;
 }
 
 
 
 
-.social > li {
-            display: inline;
-            color: #36454F;
+.social>li {
+    display: inline;
+    color: #36454F;
 }
 
 .social i {
-         font-size: 160%;
-         margin: 1%;
-         padding: 5%;
-         color: #3a3a3a;
-         overflow: hidden;
-}   
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    overflow: hidden;
+}
 
 
 /* gallery */
 
 
 #photos {
-        size: 100%;
-        clear: both;
-        line-height: 0;
-        column-count: 3;
-        column-gap: 0;
+    size: 100%;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
 }
 
-#photos > img {
-                
-                width: 100%;
-                height: auto%;
-                
+#photos>img {
+
+    width: 100%;
+    height: auto%;
+
 }
 
 
 /* contact */
 
 .contact-section {
-           
-             background: url("../images/contact-image1.jpg");
-             height: 1100px;
-             background-size:cover;
-             width: 100%;
-             overflow:visible;
-             margin: 0;  
-             padding: 0;
-             outline: 0;
-             margin-top: 0;
+
+    background: url("../images/contact-image1.jpg");
+    height: 1100px;
+    background-size: cover;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    margin-top: 0;
 }
-    
+
 .contact-section div {
-                    overflow: hidden;
-                    clear:left;
-                    margin-left: 45px;
-                    padding-top: 250px;
+    overflow: hidden;
+    clear: left;
+    margin-left: 45px;
+    padding-top: 250px;
 
 }
 
 
 .contact-section h2 {
-    
+
     letter-spacing: 1.5px;
 }
 
 
 
 .contact-section p {
-    
+
     margin-top: 20px;
     letter-spacing: 1px;
 }
 
 input {
-             border-radius: 8px;
-             margin-top: 5px;
-             width: 250px;
-             height: 25px;
-             letter-spacing: 1px; padding:5px;
-             font-family: lato, sans-serif;
-             font-weight: 300;
-            
-            
+    border-radius: 8px;
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+
+
 }
 
 
@@ -316,6 +318,62 @@ input {
 
 
 /* media queries */
+
+
+/* @media screen and (max-width: 1200px) */
+@media screen and (max-width: 950px) {
+
+
+    #ethos {
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin: 25px auto;
+
+    }
+
+    #sunset-img {
+        width: 300px;
+        height: 300px;
+        float: unset;
+        padding: 0;
+        margin: auto;
+
+    }
+
+
+    #ethos h1 {
+
+
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-left: 5%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        float: left;
+        clear: left;
+
+    }
+
+    #ethos h1 {
+        float: unset;
+        width: 100%;
+
+    }
+
+
+    #ethos p {
+        float: unset;
+        clear: unset;
+        margin: auto;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+        letter-spacing: 1px;
+        max-width: 100%;
+    }
+}
 
 
 
@@ -329,67 +387,30 @@ input {
 @media screen and (max-width: 1200px) {
 
 
-
-
-
-
-
-.contact-section {
-           
-        background: url("../images/contact-image1.jpg");
-        background-position: center;
+    #offers>div {
+        width: 50%
         
-        height: 1100px;
-        background-size:cover;
-        width: 100%;
-        overflow:visible;
-        margin: 0 auto;  
-        padding: 0;
-        outline: 0;
-        margin-top: 0;
-}
+    }
+
+    #offers p {
+        width: 50%;
+        margin: 0 auto;
 
 
 
 
+    }
+
+
+    /* media queries - screens up to 950 */
+
+    @media screen and (max-width: 950px) {
 
 
 
 
+        #menu {
 
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries - screens up t0 950 */
-
-@media screen and (max-width: 950px) {
-
-
-
-
-    #menu {
-        
             clear: left;
             float: left;
             margin-left: 5%;
@@ -397,113 +418,62 @@ input {
             line-height: 25px;
         }
 
-    #logo {
-        float: left;
-        font-size: 190%;
-        margin-left: 5%;
-        letter-spacing: 4px;
-        margin-top: 25px;
-        width:90%;
-        
-    }
+        #logo {
+            float: left;
+            font-size: 190%;
+            margin-left: 5%;
+            letter-spacing: 4px;
+            margin-top: 25px;
+            width: 90%;
 
- #menu, #logo {
-        line-height: 40px;
-        
-    }
+        }
+
+        #menu,
+        #logo {
+            line-height: 40px;
+
+        }
 
 
-    #hero-image {
+        #hero-image {
 
-        
-        size: 100%;
-        clear: both;
-        width:90%;
-        height: 700px;
-        background-size: cover;
-        
-        overflow: hidden;
-        margin: 0 auto;
-        padding: 0;
-        outline: 0;
-        margin-top: 0;
-        
-        
-        
-    }  
+
+            size: 100%;
+            clear: both;
+            width: 90%;
+            height: 700px;
+            background-size: cover;
+
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0;
+            outline: 0;
+            margin-top: 0;
 
 
 
-    
-   
-
-    
-    #ethos {
-        width:90%;
-        
-    }
-
-    #ethos img {
-        width: 300px;
-        height: 300px;
-        float: right;
-        margin-right: 0;
-        
-       }
+        }
 
 
-    #ethos h1 {
+
+
+        #image-1,
+        #image-2,
+        #image-4,
+        #image-5 {
+            width: 175px;
+            height: 175px;
+        }
+
+        #offers>div {
+            width: 90%;
+            height: 500px;
+            margin: 0 auto;
+            border-bottom: .5px solid beige;
             
-        
-        font-size: 90%;
-        letter-spacing: 2px;
-        margin-left: 5%;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        float: left;
-        clear: left;
-        
-}
-
-        #ethos h1 {
-            padding-left: 25px;
-
-}
-
-
-        #ethos p{
-            float:left;
-            clear: right;
-            
-        margin-top: 20px;
-        
-        
-        font-weight: 700;
-        font-size: 85%;
-        line-height: 150%; 
-        letter-spacing: 1px
-       
-}
-
-
-        
-       
 
 
 
-    #image-1, #image-2, #image-4, #image-5 {
-        width: 175px;
-        height: 175px;
-    }
-
-    #offers > div {
-        width: 90%;
-        height: 500px;
-        margin: 0 auto;
-        border-bottom: .5px solid beige;
-        
-        
-        
         }
 
         #offers p {
@@ -511,38 +481,33 @@ input {
         }
 
 
-        
+
 
 
         .contact-section {
-           
+
             background: url("../images/contact-image1.jpg");
             background-position: center;
-            
+
             height: 800px;
-            background-size:cover;
+            background-size: cover;
             background-size: 100% no-repeat;
-    
+
             width: 90%;
-            overflow:hidden;
-            margin: 0 auto;  
+            overflow: hidden;
+            margin: 0 auto;
             padding: 0;
             outline: 0;
             margin-top: 0;
+        }
+
+
+
+
+
+        #photos {
+            size: 90%;
+        }
+
+
     }
-    
-
-
-
-
-#photos {
-    size: 90%;}
-
-
-}
-
-
-
-
-
-
