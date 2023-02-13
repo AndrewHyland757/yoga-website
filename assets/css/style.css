@@ -338,6 +338,7 @@ input {
         float: unset;
         padding: 0;
         margin: auto;
+        
 
     }
 
@@ -347,11 +348,11 @@ input {
 
         font-size: 20px;
         letter-spacing: 2px;
-        margin-left: 5%;
+        margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 50px;
-        float: left;
-        clear: left;
+        float: unset;
+        clear: unset;
 
     }
 
@@ -367,6 +368,7 @@ input {
         clear: unset;
         margin: auto;
         margin-top: 20px;
+        
         font-weight: 700;
         font-size: 17px;
         line-height: 150%;
@@ -455,7 +457,13 @@ input {
         }
 
 
+        
+            
+        #offers {
+            margin-top: 160px;
 
+
+        }
 
         #image-1,
         #image-2,
@@ -468,9 +476,10 @@ input {
         #offers>div {
             width: 90%;
             height: 500px;
-            margin: 0 auto;
+            margin: 0 center;
+            margin-left: 5%;
             border-bottom: .5px solid beige;
-            
+
 
 
 
@@ -478,6 +487,7 @@ input {
 
         #offers p {
             margin: 0, center;
+            font-size: 85%;
         }
 
 
@@ -506,7 +516,8 @@ input {
 
 
         #photos {
-            size: 90%;
+            width: 90%;
+            margin: 0 auto;
         }
 
 
