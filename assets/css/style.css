@@ -95,13 +95,14 @@ h1, h2, h3 {
          width:100%;
          height: 600px;
          margin-top: 125px;
+         padding-left: 25px;
     }
 
 
 
 
 
-#ethos-left h1 {
+#ethos h1 {
             
             width:900px;
             font-size: 45px;
@@ -112,13 +113,9 @@ h1, h2, h3 {
             float: left;
 }
 
-#ethos-left2 h1 {
-                padding-left: 25px;
-
-}
 
 
-#ethos-left p{
+#ethos p{
     
             margin-top: 20px;
             width: 500px;
@@ -132,13 +129,14 @@ h1, h2, h3 {
 }
 
 
-#sun-image {
+#ethos img {
     width: 35%;
     height: 80%;
-    margin-right:50px ;
+    margin-right:60px ;
     float: right;
-    background: url('../images/yoga-3.jpg') no-repeat center center;
-    background-size: 100% 100%;
+
+    
+    
    }
 
 
@@ -268,7 +266,7 @@ footer {
 
 .contact-section {
            
-             background: url("../images/contact-image.jpg");
+             background: url("../images/contact-image1.jpg");
              height: 1100px;
              background-size:cover;
              width: 100%;
@@ -301,54 +299,119 @@ footer {
     letter-spacing: 1px;
 }
 
-#input-style {
-    margin-top: 5px;
-            width: 300px;
-            height: 20px;
+input {
+             border-radius: 8px;
+             margin-top: 5px;
+             width: 250px;
+             height: 25px;
+             letter-spacing: 1px; padding:5px;
+             font-family: lato, sans-serif;
+             font-weight: 300;
+            
             
 }
 
 
 
 
-/* media queries */
-
-
-
-
-
-
 
 /* media queries */
+
+
+
+
+
+
+
+/* media queries - screens  up to 1200 width */
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+
+
+
+.contact-section {
+           
+        background: url("../images/contact-image1.jpg");
+        background-position: center;
+        
+        height: 1100px;
+        background-size:cover;
+        width: 100%;
+        overflow:visible;
+        margin: 0 auto;  
+        padding: 0;
+        outline: 0;
+        margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries - screens up t0 950 */
 
 @media screen and (max-width: 950px) {
 
 
 
+
     #menu {
-        clear: left;
-        float: left;
-        font-size: 110%;
-        letter-spacing: 3px;
-        list-style-type: none;
-        margin-left: 30px;
-       margin-bottom: 20px;
-    }
+        
+            clear: left;
+            float: left;
+            margin-left: 5%;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
 
     #logo {
         float: left;
-        font-size: 210%;
-        margin-left: 30px;
+        font-size: 190%;
+        margin-left: 5%;
         letter-spacing: 4px;
         margin-top: 25px;
+        width:90%;
         
     }
 
-
-    #menu, #logo {
+ #menu, #logo {
         line-height: 40px;
-        vertical-align: middle;
+        
     }
+
 
     #hero-image {
 
@@ -359,7 +422,7 @@ footer {
         height: 700px;
         background-size: cover;
         
-        overflow: visible;
+        overflow: hidden;
         margin: 0 auto;
         padding: 0;
         outline: 0;
@@ -367,49 +430,63 @@ footer {
         
         
         
+    }  
+
+
+
+    
+   
+
+    
+    #ethos {
+        width:90%;
+        
     }
 
+    #ethos img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin-right: 0;
+        
+       }
 
-    #ethos-left h1 {
+
+    #ethos h1 {
             
-        width:40%;
-        font-size: 25px;
+        
+        font-size: 90%;
         letter-spacing: 2px;
-        margin-left: 10px;
+        margin-left: 5%;
         margin-top: 100px;
         margin-bottom: 50px;
         float: left;
+        clear: left;
+        
 }
 
-        #ethos-left2 h1 {
+        #ethos h1 {
             padding-left: 25px;
 
 }
 
 
-        #ethos-left p{
-
+        #ethos p{
+            float:left;
+            clear: right;
+            
         margin-top: 20px;
-        width: 500px;
-        margin-left: 300px;
+        
+        
         font-weight: 700;
-        font-size: 20px;
+        font-size: 85%;
         line-height: 150%; 
         letter-spacing: 1px
-        
-        
+       
 }
 
 
-        #sun-image {
-        width: 50%;
-        height: 60%;
-        margin: 0 auto;
         
-        background: url('../images/yoga-3.jpg') no-repeat center center;
-        background-size: 100% 100%;
-       }
-
        
 
 
@@ -420,9 +497,9 @@ footer {
     }
 
     #offers > div {
-        width: 100%;
+        width: 90%;
         height: 500px;
-        margin:0 auto;
+        margin: 0 auto;
         border-bottom: .5px solid beige;
         
         
@@ -434,14 +511,35 @@ footer {
         }
 
 
+        
 
+
+        .contact-section {
+           
+            background: url("../images/contact-image1.jpg");
+            background-position: center;
+            
+            height: 800px;
+            background-size:cover;
+            background-size: 100% no-repeat;
+    
+            width: 90%;
+            overflow:hidden;
+            margin: 0 auto;  
+            padding: 0;
+            outline: 0;
+            margin-top: 0;
+    }
+    
+
+
+
+
+#photos {
+    size: 90%;}
 
 
 }
-
-
-
-
 
 
 
