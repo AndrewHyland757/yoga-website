@@ -209,11 +209,36 @@ h3 {
 
 
 
+/* video */
+
+.video-container {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    border: 0;
+  }
+
+
+
+
+
 /* footer */
 
 footer {
     height: 150px;
     margin-top: 150px;
+    clear: both;
     
 }
 
@@ -227,6 +252,7 @@ footer {
 .social>li {
     display: inline;
     color: #36454F;
+   
 }
 
 .social i {
@@ -324,7 +350,7 @@ footer {
 
     #sunset-img {
         width: 500px;
-        height:400px;
+        height:auto;
         float: unset;
         padding: 0;
         margin: auto;
@@ -417,7 +443,6 @@ footer {
         clear: unset;
         margin: auto;
         margin-top: 20px;
-        
         font-weight: 700;
         font-size: 17px;
         line-height: 150%;
@@ -497,7 +522,7 @@ footer {
     
         #sunset-img {
             width: 300px;
-            height: 300px;
+            height: auto;
             float: unset;
             padding: 0;
             margin: auto;
@@ -542,10 +567,11 @@ footer {
 
         #image-1,
         #image-2,
+        #image-3,
         #image-4,
         #image-5 {
-            width: 175px;
-            height: 175px;
+            width: 140px;
+            height: 140px;
         }
 
         #offers>div {
@@ -562,50 +588,40 @@ footer {
         }
 
         .contact-section {
-            background: url("../images/contact-image1.jpg");
             background-position: center;
             height: 800px;
-            background-size: cover;
             width: 90%;
             overflow: hidden;
             margin: 0 auto;
-            padding: 0;
-            outline: 0;
             margin-top: 0;
         }
+
+        .contact-section div {
+            margin-left: 30px;
+        }
+
+
 
 
         #photos {
             width: 90%;
             margin: 0 auto;
-            margin top: 20px;
+            
         }
 
         .video-container {
             width:90%;
-}
+            
+        }
         .video-container iframe {
-            width:90%;
+            
+            margin: 0 auto;
+            margin-top: 90px;
+            
 
-    }
+        }
  }
 
-.video-container {
-    clear: both;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 56.25%;
-    width: 100%;
-  }
-  
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin-top: 150px;
-  }
 
             
 
