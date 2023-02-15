@@ -79,7 +79,7 @@ h3 {
 
 #hero-image {
     background: url("../images/main-image.jpg") no-repeat center center;
-    height: 950px;
+    height: 1050px;
     width: 100%;
     background-size: cover;
     overflow: visible;
@@ -304,18 +304,19 @@ footer {
 
 
 .contact-section h2 {
-
     letter-spacing: 1.5px;
+    margin-bottom: 20px;
 }
 
 
 
 .contact-section p {
-
-    margin-top: 20px;
+    margin-top: 5px;
     letter-spacing: 1px;
-    
 }
+
+
+    
 
 .input-style {
     border-radius: 8px;
@@ -342,7 +343,7 @@ footer {
 
 
     #hero-image {
-        height: 750px;
+        height: 820px;
 
     }
 
@@ -366,31 +367,21 @@ footer {
 
     #ethos h1 {
         font-size: 190%;
-        letter-spacing: 2px;
         margin: 0 auto;
-        margin-top: 100px;
         margin-bottom: 50px;
         float: unset;
         clear: unset;
-
+        width: 100%
     }
 
-    #ethos h1 {
-        float: unset;
-        width: 100%;
-
-    }
-
+    
 
     #ethos p {
         float: unset;
         clear: unset;
         margin: auto;
         margin-top: 20px;
-        font-weight: 700;
         font-size: 110%;
-        line-height: 150%;
-        letter-spacing: 1px;
         max-width: 100%;
         
     }
@@ -398,8 +389,6 @@ footer {
 
     #offers {
         margin-top: 350px;
-
-
     }
 
 }
@@ -416,54 +405,15 @@ footer {
         margin: 25px auto;
     }
 
-    #sunset-img {
-        width: 500px;
-        height: 400px;
-        float: unset;
-        padding: 0;
-        margin: auto;
-        margin-top: 90px;
-    }
-
-
     #ethos h1 {
         font-size: 150%;
-        letter-spacing: 2px;
-        margin: 0 auto;
         margin-top: 100px;
-        margin-bottom: 50px;
-        float: unset;
-        clear: unset;
-
     }
 
-    #ethos h1 {
-        float: unset;
-        width: 100%;
-
+     #ethos p {
+        font-size: 100%;
     }
 
-
-    #ethos p {
-        float: unset;
-        clear: unset;
-        margin: auto;
-        margin-top: 20px;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 150%;
-        letter-spacing: 1px;
-        max-width: 100%;
-    }
-
-    #offers {
-        margin-top: 350px;
-    }
-
-   
-   
-   
-   
     #offers>div {
         width: 50%
         
@@ -533,7 +483,7 @@ footer {
         }
     
         #sunset-img {
-            width: 300px;
+            width: 75%;
             height: auto;
             float: unset;
             padding: 0;
@@ -543,38 +493,15 @@ footer {
     
     
         #ethos h1 {
-            font-size: 20px;
-            letter-spacing: 2px;
-            margin: 0 auto;
-            margin-top: 100px;
-            margin-bottom: 50px;
-            float: unset;
-            clear: unset;
-        }
-    
-        #ethos h1 {
-            float: unset;
-            width: 100%;
-        }
-    
-    
-        #ethos p {
-            float: unset;
-            clear: unset;
-            margin: auto;
-            margin-top: 20px;
-            font-weight: 700;
-            font-size: 17px;
-            line-height: 150%;
-            letter-spacing: 1px;
-            max-width: 100%;
-        }
-    
-    
+            font-size: 135%;
+            }
         
-            
-        #offers {
-            margin-top: 250px;
+        #ethos p {
+            font-size: 100%;
+            }
+    
+         #offers {
+            margin-top: 350px;
         }
 
         #image-1,
@@ -612,9 +539,6 @@ footer {
             margin-left: 30px;
         }
 
-
-
-
         #photos {
             width: 90%;
             margin: 0 auto;
@@ -626,19 +550,96 @@ footer {
             
         }
         .video-container iframe {
-            
             margin: 0 auto;
             margin-top: 90px;
-            
-
         }
  }
 
+ /* media queries - screens up to 480 */
 
+ @media screen and (max-width: 480px) {
+
+
+
+#menu {
             
+            margin-bottom: 15px;
+            line-height: 25px;
+            font-size: 75%;
+            
+        }
+        #menu li {
+            
+            margin-right: 15px;
+        }
+
+        #logo {
+            float: left;
+            font-size: 150%;
+            margin-left: 5%;
+            letter-spacing: 4px;
+            margin-top: 20px;
+        }
+
+        #menu,
+        #logo {
+            line-height: 35px;
+        }
 
 
+        #hero-image {
+            
+            height: 375px;
+        }
+       
 
-    
+        #sunset-img {
+            width: 75%;
+            height: auto;
+        }
+
+        #image-1,
+        #image-2,
+        #image-3,
+        #image-4,
+        #image-5 {
+            width: 130px;
+            height: 130px;
+        }
+       
+       #offers p {
+           width: 75%;    
+        } 
+
+
+        .contact-section {
+            height: 600px;
+            background-position: left;
+        }
         
-    
+        .contact-section div {
+            overflow: hidden;
+            clear: left;
+            margin-left: 20px;
+            padding-top: 100px;
+        
+        }
+        
+        
+        .contact-section h2 {
+            letter-spacing: 1.5px;
+            font-size: 120%;
+        }
+        
+        
+        
+        .contact-section p {
+            margin-top: 20px;
+            letter-spacing: 1px;
+            font-size: 90%;
+        }
+        
+        .input-style {
+             height: 20px;
+        }
+}
