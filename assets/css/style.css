@@ -79,7 +79,7 @@ h3 {
 
 #hero-image {
     background: url("../images/main-image.jpg") no-repeat center center;
-    height: 1010px;
+    height: 975px;
     width: 100%;
     background-size: cover;
     overflow: visible;
@@ -284,7 +284,7 @@ footer {
 .contact-section {
 
     background: url("../images/contact-image1.jpg");
-    height: 1100px;
+    height: 1000px;
     background-size: cover;
     width: 100%;
     overflow: visible;
@@ -483,6 +483,7 @@ footer {
             margin-left: 5%;
             margin-bottom: 20px;
             line-height: 25px;
+            font-size: 110%;
         }
 
         #logo {
@@ -504,7 +505,7 @@ footer {
         #hero-image {
             clear: both;
             width: 90%;
-            height: 700px;
+            height: 600px;
             background-size: cover;
             overflow: hidden;
             margin: 0 auto;
