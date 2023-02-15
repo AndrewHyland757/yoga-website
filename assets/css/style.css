@@ -383,9 +383,16 @@ footer {
         margin-top: 20px;
         font-size: 110%;
         max-width: 100%;
-        
     }
 
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5 {
+        width: 160x;
+        height: 160px;
+    }
 
     #offers {
         margin-top: 350px;
