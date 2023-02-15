@@ -514,10 +514,10 @@ footer {
         }
 
         #offers>div {
-            width: 90%;
+            width: 75%;
             height: 500px;
             margin: 0 auto;
-            margin-left: 5%;
+            float: unset;
             border-bottom: .5px solid beige;
         }
 
@@ -642,4 +642,4 @@ footer {
         .input-style {
              height: 20px;
         }
-}
+} 
