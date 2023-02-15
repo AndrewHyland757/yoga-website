@@ -79,7 +79,7 @@ h3 {
 
 #hero-image {
     background: url("../images/main-image.jpg") no-repeat center center;
-    height: 975px;
+    height: 950px;
     width: 100%;
     background-size: cover;
     overflow: visible;
@@ -339,6 +339,13 @@ footer {
 /* media queries - screens  up to 1555 width */
 
 @media screen and (max-width: 1555px) {
+
+
+    #hero-image {
+        
+        height: 750px;
+
+    }
 
     #ethos {
         width: 90%;
