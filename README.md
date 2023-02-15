@@ -9,7 +9,7 @@ Sonas Yoga Studio is a site for a boutique yoga retreat in Connemara Ireland.  T
 
 ### Navigation Bar
 ![Screenshot of navigation, logo and main image](assets/images/screenshot-homepage.jpg)
-* Featured on all three pages this provides the user with a clear and easily identifiable way to go between the pages.
+* situated on the top-right of all three pages this provides the user with a clear and easily identifiable way to go between the pages.
 * The logo sits to the right of the page.
 * The main image and logo set an appropriate tone and aline with the values of the studio. 
 
